@@ -11,7 +11,7 @@ Text Keeper is a simple and intuitive Chrome extension that allows you to save y
 ## Installation
 1. Clone or download the repository to your local machine:
    ```bash
-   git clone https://github.com/ktshacx/text-keeper.git
+   git clone https://github.com/ktshacx/TextKeeperChromeExt.git
    ```
 2. Open Chrome and go to `chrome://extensions`.
 3. Enable Developer mode using the toggle in the top-right corner.
