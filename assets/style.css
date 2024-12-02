@@ -1,0 +1,106 @@
+/* General Styling */
+body {
+  font-family: 'Baloo Bhai 2', cursive;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #fdf1e0; /* Light beige background */
+  color: #562c20; /* Dark brown text */
+  width: 300px;
+  height: 500px !important;
+}
+
+/* Header Section */
+.header {
+  background-color: #f4a261; /* Orange shade */
+  padding: 15px;
+  color: white;
+  border-bottom: 5px solid #e76f51;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.header p {
+  margin: 5px 0 0;
+  font-size: 14px;
+}
+
+.hide {
+  display: none;
+}
+
+/* Saved Texts Area */
+.saved-texts {
+  
+}
+
+.texts {
+  margin: 15px;
+  max-height: 300px;
+  overflow-y: auto;
+  border: 2px solid #e76f51;
+  padding: 10px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.del {
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.del:hover {
+  transform: scale(1.5);
+}
+
+.main-text {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.sub-text {
+  font-size: 12px;
+  margin: 5px 0;
+  text-decoration: none;
+  color: #e76f51;
+}
+
+/* Buttons */
+.btn {
+  background-color: #e76f51;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #f4a261;
+  transform: scale(1.1);
+}
+
+/* Footer Section */
+footer {
+  margin-top: 15px;
+  font-size: 12px;
+  color: #6d4c41;
+}
+
+.view-text {
+  padding: 10px;
+  text-align: left;
+}
